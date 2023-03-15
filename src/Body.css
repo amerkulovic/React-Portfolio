@@ -1,4 +1,14 @@
+ul li {
+  display: inline-block;
+  vertical-align: top;
+  width: 45%;
+}
+
+li {
+  padding: 10px 0;
+}
 .work-picture {
+  position: relative;
   width: 425px;
   height: 315px;
   border: 3px solid #fefbec;

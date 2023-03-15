@@ -16,8 +16,8 @@ const Body = () => {
       <p className="font-light px-10 text-lg">Check out my work!</p>
       <section className="bg-[#032A5D] mt-80 p-10">
         <h1 className="text-[#CCDAEB] font-bold text-4xl py-5">About Me</h1>
-        <p className="text-[#FEFBEC] font-semibold text-2xl mx-7 py-5">My name is Amer Kulovic. I am a Software Engineer! I have a certificate from Northwestern in Software Engineering and a degree in Business Management from Northeastern Illinois University. I am an active learner and love tackling new tasks. I am experienced in </p>
-        <ul className="text-[#FEFBEC] font-semibold text-2xl py-5">
+        <p className="text-[#FEFBEC] font-semibold text-2xl mx-7 py-5">My name is Amer Kulovic, I am a Software Engineer! I have a certificate from Northwestern in Software Engineering and a degree in Business Management from Northeastern Illinois University. I am an active learner and love tackling new tasks. I am experienced in : </p>
+        <ul className="text-[#FEFBEC] font-semibold text-2xl py-5 text-center">
           <li>JavaScript</li>
           <li>CSS</li>
           <li>HTML</li>
@@ -34,38 +34,50 @@ const Body = () => {
         <div className="inline-block">
           <button>
             <a href="https://grouponeel.github.io/01_group-project/" target="_blank">
-              <img src={myMovieSpace} className="work-picture"></img>
-              <h1>MyMovieSpace</h1>
+              <div>
+                <img src={myMovieSpace} className="work-picture"></img>
+                <h1>MyMovieSpace</h1>
+              </div>
             </a>
           </button>
           <button>
             <a href="https://amerkulovic.github.io/Indy-Jones-Questionaire/" target="_blank">
-              <img src={indianaJones} className="work-picture"></img>
-              <h1>Indiana Jones Quiz</h1>
+              <div>
+                <img src={indianaJones} className="work-picture"></img>
+                <h1>Indiana Jones Quiz</h1>
+              </div>
             </a>
           </button>
           <button>
             <a href="https://future-finder.herokuapp.com/" target="_blank">
-              <img src={futureFinder} className="work-picture"></img>
-              <h1>Future Finder</h1>
+              <div>
+                <img src={futureFinder} className="work-picture"></img>
+                <h1>Future Finder</h1>
+              </div>
             </a>
           </button>
           <button>
             <a href="https://amerkulovic.github.io/Weather-Dashboard/ " target="_blank">
-              <img src={weatherDashboard} className="work-picture"></img>
-              <h1>Future Finder</h1>
+              <div>
+                <img src={weatherDashboard} className="work-picture"></img>
+                <h1>Future Finder</h1>
+              </div>
             </a>
           </button>
           <button>
             <a href="https://www.youtube.com/watch?v=QZSxZ1aRiGQ" target="_blank">
-              <img src={socialNetwork} className="work-picture"></img>
-              <h1>Social Network API</h1>
+              <div>
+                <img src={socialNetwork} className="work-picture"></img>
+                <h1>Social Network API</h1>
+              </div>
             </a>
           </button>
           <button>
             <a href="https://note-taker-ak2.herokuapp.com/" target="_blank">
-              <img src={noteTaker} className="work-picture"></img>
-              <h1>Note Taking App</h1>
+              <div>
+                <img src={noteTaker} className="work-picture"></img>
+                <h1>Note Taking App</h1>
+              </div>
             </a>
           </button>
         </div>
