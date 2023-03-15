@@ -1,11 +1,11 @@
 import React from "react";
 import "./Body.css";
-import myMovieSpace from "./MyMovieSpace.png";
-import indianaJones from "./IndianaJones.png";
-import futureFinder from "./FutureFinder.png";
-import socialNetwork from "./SocialNetwork.png";
-import noteTaker from "./NoteTaker.png";
-import weatherDashboard from "./WeatherDashboard.png";
+import myMovieSpace from "./images/MyMovieSpace.png";
+import indianaJones from "./images/IndianaJones.png";
+import futureFinder from "./images/FutureFinder.png";
+import socialNetwork from "./images/SocialNetwork.png";
+import noteTaker from "./images/NoteTaker.png";
+import weatherDashboard from "./images/WeatherDashboard.png";
 
 const Body = () => {
   return (

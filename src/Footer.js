@@ -1,6 +1,6 @@
 import React from "react";
-import githubLogo from "./github.png";
-import linkedInLogo from "./linkedIn.png";
+import githubLogo from "./images/github.png";
+import linkedInLogo from "./images/linkedIn.png";
 
 const Footer = () => {
   return (
