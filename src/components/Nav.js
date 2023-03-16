@@ -10,6 +10,9 @@ const Nav = () => {
         <a className="font-bold underline-hover-effect">Portfolio</a>
       </button>
       <button>
+        <a className="font-bold underline-hover-effect">Resume</a>
+      </button>
+      <button>
         <a className="text-white bg-[#032A5D] font-bold py-3 px-4 rounded-3xl hover:shadow-2xl">Contact</a>
       </button>
     </nav>

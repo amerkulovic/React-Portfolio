@@ -133,3 +133,9 @@ li {
     transform: translateY(0);
   }
 }
+
+@media screen and (max-width: 863px) {
+  .type-writer::after {
+    opacity: 0;
+  }
+}
