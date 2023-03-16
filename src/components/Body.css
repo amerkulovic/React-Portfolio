@@ -13,6 +13,12 @@ ul li {
 li {
   padding: 10px 0;
 }
+
+svg {
+  width: 50px;
+  height: 50px;
+}
+
 .work-picture {
   position: relative;
   width: 425px;
@@ -26,7 +32,7 @@ li {
   box-shadow: 0 0 16px #f97444;
 }
 
-.work-picture:hover ~ .picture-text {
+.container:hover .picture-text {
   opacity: 1;
 }
 .picture-text:hover ~ .work-picture {
@@ -34,11 +40,11 @@ li {
   box-shadow: 0 0 16px #f97444;
 }
 
-.work-picture:hover ~ .github-text {
+.container:hover .github-text {
   opacity: 1;
 }
 
-.work-picture:hover ~ .link-text {
+.container:hover .link-text {
   opacity: 1;
 }
 
@@ -46,6 +52,10 @@ li {
   position: relative;
   text-align: center;
   color: white;
+}
+.container:hover .work-picture {
+  filter: blur(2px) brightness(60%);
+  box-shadow: 0 0 16px #f97444;
 }
 
 .picture-text {
