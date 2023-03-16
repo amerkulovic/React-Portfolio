@@ -19,3 +19,44 @@ li {
   filter: blur(2px) brightness(60%);
   box-shadow: 0 0 16px #f97444;
 }
+
+.work-picture:hover ~ .picture-text {
+  opacity: 1;
+}
+.work-picture:hover ~ .github-text {
+  opacity: 1;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.picture-text {
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+}
+
+.github-text{
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+}
+
+.picture-text:hover {
+ opacity: 1;
+}
+.github-text:hover {
+  opacity: 1;
+ }
+ 
