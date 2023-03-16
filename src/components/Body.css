@@ -38,6 +38,10 @@ li {
   opacity: 1;
 }
 
+.work-picture:hover ~ .link-text {
+  opacity: 1;
+}
+
 .container {
   position: relative;
   text-align: center;
@@ -64,10 +68,23 @@ li {
   opacity: 0;
 }
 
+.link-text {
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+}
+
 .picture-text:hover {
   opacity: 1;
 }
 .github-text:hover {
+  opacity: 1;
+}
+.link-text:hover {
   opacity: 1;
 }
 
