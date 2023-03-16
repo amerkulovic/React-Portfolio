@@ -1,5 +1,6 @@
 import React from "react";
 import "./Header.css";
+import Nav from "./Nav";
 
 const Header = () => {
   return (
@@ -7,17 +8,7 @@ const Header = () => {
       <h1 className="text-[#032A5D] text-5xl px-5 font-bold">
         <span className="text-[#F97444]">&lt;</span>Amer <span className="text-[#F97444]">/&gt;</span>
       </h1>
-      <nav className="px-8 flex items-center text-black space-x-5">
-        <button>
-          <a className="font-bold underline-hover-effect">About Me</a>
-        </button>
-        <button>
-          <a className="font-bold underline-hover-effect">Portfolio</a>
-        </button>
-        <button>
-          <a className="text-white bg-[#032A5D] font-bold py-3 px-4 rounded-3xl hover:shadow-2xl">Contact</a>
-        </button>
-      </nav>
+      <Nav />
     </div>
   );
 };
