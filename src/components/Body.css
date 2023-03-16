@@ -29,6 +29,11 @@ li {
 .work-picture:hover ~ .picture-text {
   opacity: 1;
 }
+.picture-text:hover ~ .work-picture {
+  filter: blur(2px) brightness(60%);
+  box-shadow: 0 0 16px #f97444;
+}
+
 .work-picture:hover ~ .github-text {
   opacity: 1;
 }
@@ -89,7 +94,7 @@ li {
 
 .type-writer::after {
   width: 0.125em;
-  background: #032A5D;
+  background: #032a5d;
   animation: typewriter var(--typewriterSpeed) steps(var(--typewriterCharacters)) 1s forwards, blink 750ms steps(var(--typewriterCharacters)) infinite;
 }
 

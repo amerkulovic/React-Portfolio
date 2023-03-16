@@ -1,11 +1,11 @@
 import React from "react";
-import myMovieSpace from "./images/MyMovieSpace.png";
-import indianaJones from "./images/IndianaJones.png";
-import futureFinder from "./images/FutureFinder.png";
-import socialNetwork from "./images/SocialNetwork.png";
-import noteTaker from "./images/NoteTaker.png";
-import weatherDashboard from "./images/WeatherDashboard.png";
-import githubLogo from "./images/github-white.png";
+import myMovieSpace from "../images/MyMovieSpace.png";
+import indianaJones from "../images/IndianaJones.png";
+import futureFinder from "../images/FutureFinder.png";
+import socialNetwork from "../images/SocialNetwork.png";
+import noteTaker from "../images/NoteTaker.png";
+import weatherDashboard from "../images/WeatherDashboard.png";
+import githubLogo from "../images/github-white.png";
 
 const Portfolio = () => {
   return (
@@ -71,7 +71,7 @@ const Portfolio = () => {
           <a href="https://note-taker-ak2.herokuapp.com/" target="_blank">
             <div className="container">
               <img src={noteTaker} className="work-picture"></img>
-              <h1 className="picture-text">Note Taking App</h1>
+              <h1 className="picture-text">Note Taker</h1>
               <a className="github-text" href="https://github.com/amerkulovic/Note-Taker" target="_blank">
                 <img src={githubLogo} width="50" height="50"></img>
               </a>
