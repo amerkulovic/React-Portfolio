@@ -49,7 +49,7 @@ const Portfolio = () => {
           <a href="https://amerkulovic.github.io/Weather-Dashboard/ " target="_blank">
             <div className="container">
               <img src={weatherDashboard} className="work-picture"></img>
-              <h1 className="picture-text">Future Finder</h1>
+              <h1 className="picture-text">Weather Board</h1>
               <a className="github-text" href="https://github.com/amerkulovic/Weather-Dashboard" target="_blank">
                 <img src={githubLogo} width="50" height="50"></img>
               </a>
