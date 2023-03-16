@@ -1,3 +1,9 @@
+:root {
+  --bg-color: white;
+  --typewriterSpeed: 2.5s;
+  --typewriterCharacters: 125;
+}
+
 ul li {
   display: inline-block;
   vertical-align: top;
@@ -43,7 +49,7 @@ li {
   opacity: 0;
 }
 
-.github-text{
+.github-text {
   font-size: 25px;
   font-weight: bold;
   position: absolute;
@@ -54,9 +60,54 @@ li {
 }
 
 .picture-text:hover {
- opacity: 1;
+  opacity: 1;
 }
 .github-text:hover {
   opacity: 1;
- }
- 
+}
+
+.type-writer {
+  position: relative;
+  position: relative;
+  width: max-content;
+}
+
+.type-writer::before,
+.type-writer::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.type-writer::before {
+  background: var(--bg-color);
+  animation: typewriter var(--typewriterSpeed) steps(var(--typewriterCharacters)) 1s forwards;
+}
+
+.type-writer::after {
+  width: 0.125em;
+  background: #032A5D;
+  animation: typewriter var(--typewriterSpeed) steps(var(--typewriterCharacters)) 1s forwards, blink 750ms steps(var(--typewriterCharacters)) infinite;
+}
+
+@keyframes typewriter {
+  to {
+    left: 100%;
+  }
+}
+
+@keyframes blink {
+  to {
+    background: transparent;
+  }
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
