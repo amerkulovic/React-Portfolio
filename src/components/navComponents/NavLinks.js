@@ -26,7 +26,9 @@ const NavLinks = (props) => {
         </Link>
       </motion.li>
       <motion.li initial={animateFrom} animate={animateTo} transition={{ delay: 0.2 }} onClick={() => props.isMobile && props.closeMobileMenu()}>
-        <a className="text-white bg-[#032A5D] font-bold py-3 px-4 rounded-3xl hover:shadow-2xl contact-card">Contact</a>
+        <Link to="/contact">
+          <a className="text-white bg-[#032A5D] font-bold py-3 px-4 rounded-3xl hover:shadow-2xl contact-card">Contact</a>
+        </Link>
       </motion.li>
     </ul>
   );
