@@ -24,9 +24,32 @@ a.underline-hover-effect {
   bottom: 0;
   width: 0;
   height: 2px;
-  background-color: #F97444;
+  background-color: #f97444;
   transition: width 0.25s ease-out;
 }
 .underline-hover-effect:hover::before {
   width: 100%;
+}
+
+.navigation {
+}
+
+.mobile-navigation {
+  display: none;
+}
+
+@media (max-width: 990px) {
+  .navigation {
+    display: none;
+  }
+  .mobile-navigation {
+    display: flex;
+    align-items: center;
+    background: red;
+  }
+  .hamburger {
+    position: absolute;
+    right: 5%;
+    cursor: pointer;
+  }
 }
