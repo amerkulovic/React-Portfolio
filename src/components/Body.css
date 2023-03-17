@@ -4,6 +4,10 @@
   --typewriterCharacters: 125;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 ul li {
   display: inline-block;
   vertical-align: top;

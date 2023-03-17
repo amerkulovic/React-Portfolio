@@ -2,8 +2,8 @@ import React from "react";
 
 import "./Body.css";
 import Introduction from "./Inroduction";
-import Portfolio from "./Portfolio";
 import About from "./About";
+import Portfolio from "./Portfolio";
 
 const Body = () => {
   return (

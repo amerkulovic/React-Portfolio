@@ -10,7 +10,7 @@ import githubLogo from "../images/github-white.png";
 
 const Portfolio = () => {
   return (
-    <section className="bg-[#DAD9D5] p-10">
+    <section id="portfolio" className="bg-[#DAD9D5] p-10">
       <h1 className="text-[#032A5D] font-bold text-4xl py-5">Portfolio</h1>
       <div className="flex flex-wrap justify-center">
         <Project link="https://grouponeel.github.io/01_group-project/" imgLink={myMovieSpace} githubLink="https://github.com/GroupOneEl/01_group-project" projectTitle="MyMovieSpace" />

@@ -4,10 +4,10 @@ const Nav = () => {
   return (
     <nav className="px-8 flex items-center text-black space-x-5">
       <button>
-        <a className="font-bold underline-hover-effect">About Me</a>
+        <a href="#about" className="font-bold underline-hover-effect">About Me</a>
       </button>
       <button>
-        <a className="font-bold underline-hover-effect">Portfolio</a>
+        <a href="#portfolio" className="font-bold underline-hover-effect">Portfolio</a>
       </button>
       <button>
         <a className="font-bold underline-hover-effect">Resume</a>
