@@ -1,5 +1,5 @@
 import NavLinks from "./NavLinks";
-import "./Header.css";
+import "../Header.css";
 
 const Navigation = () => {
   return (

@@ -1,5 +1,5 @@
 import NavLinks from "./NavLinks";
-import "./Header.css";
+import "../Header.css";
 import { AiOutlineMenu } from "react-icons/ai";
 import { AiOutlineClose } from "react-icons/ai";
 import { useState } from "react";
