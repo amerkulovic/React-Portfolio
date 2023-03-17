@@ -153,3 +153,9 @@ svg {
     opacity: 0;
   }
 }
+
+@media (max-width: 930px) {
+  .work-picture {
+    margin: 10px 0;
+  }
+}

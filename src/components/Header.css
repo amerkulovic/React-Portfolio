@@ -61,11 +61,10 @@ a.underline-hover-effect {
   ul {
     z-index: 1;
   }
-  a {
+  ul a {
     color: white;
   }
   ul a:hover {
-    border-bottom: none;
     color: #f97444;
   }
   .contact-card {
