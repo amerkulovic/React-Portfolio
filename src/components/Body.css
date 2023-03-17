@@ -8,7 +8,7 @@ html {
   scroll-behavior: smooth;
 }
 
-ul li {
+.unordered-list li {
   display: inline-block;
   vertical-align: top;
   width: 45%;

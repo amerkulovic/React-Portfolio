@@ -8,7 +8,6 @@
 
 a.underline-hover-effect {
   text-decoration: none;
-  color: inherit;
 }
 
 .underline-hover-effect {
@@ -31,9 +30,6 @@ a.underline-hover-effect {
   width: 100%;
 }
 
-.navigation {
-}
-
 .mobile-navigation {
   display: none;
 }
@@ -45,11 +41,34 @@ a.underline-hover-effect {
   .mobile-navigation {
     display: flex;
     align-items: center;
-    background: red;
   }
   .hamburger {
     position: absolute;
+    top: 3%;
     right: 5%;
     cursor: pointer;
+  }
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 15%;
+    right: 0%;
+    width: 100%;
+    background: #032a5d;
+    border-top: 2px solid #f97444;
+  }
+  ul {
+    z-index: 1;
+  }
+  a {
+    color: white;
+  }
+  ul a:hover {
+    border-bottom: none;
+    color: #f97444;
+  }
+  .contact-card {
+    padding: 0px;
   }
 }
