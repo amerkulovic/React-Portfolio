@@ -9,11 +9,10 @@ const About = () => {
         <li>React</li>
         <li>MongoDB</li>
         <li>JavaScript</li>
-        <li>CSS</li>
+        <li>MySQL</li>
         <li>HTML</li>
         <li>Node.js</li>
-        <li>MySQL</li>
-
+        <li>CSS</li>
         <li>jQuery</li>
       </ul>
       <p className="text-[#FEFBEC] font-semibold text-2xl mx-7 py-5">I have built multiple websites from scratch and I'm continuously learning more about the world of coding! Some personal hobbies of mine are playing basketball, weightlifting, and watching movies.</p>
