@@ -23,6 +23,10 @@ svg {
   height: 50px;
 }
 
+.empty-field {
+  border: 1px solid red;
+}
+
 .work-picture {
   position: relative;
   width: 425px;
