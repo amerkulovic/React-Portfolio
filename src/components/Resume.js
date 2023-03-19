@@ -7,9 +7,7 @@ const Resume = () => {
       <img className="py-5" src={resumeSvg}></img>
       <div className="text-center p-8">
         <h1 className="font-bold text-5xl mb-14">My Resume</h1>
-        <a href="">
-          <button className="font-bold text-4xl border-4 border-[#032a5d] p-5 rounded-lg text-white download-btn">Download</button>
-        </a>
+        <button className="font-bold text-4xl border-4 border-[#032a5d] p-5 rounded-lg text-white download-btn">Download</button>
       </div>
     </div>
   );

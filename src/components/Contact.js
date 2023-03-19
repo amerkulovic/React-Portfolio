@@ -2,9 +2,10 @@ import { useState } from "react";
 import "./Body.css";
 
 const Contact = () => {
-  let nameStyling = "";
   const [nameInput, setNameInput] = useState("");
+  const [nameStyling, setNameStyling] = useState("w-1/2");
   const [emailInput, setEmailInput] = useState("");
+  const [emailStyling, setEmailStyling] = useState("w-1/2");
 
   const nameInputHandler = (event) => {
     setNameInput(event.target.value);
@@ -17,30 +18,40 @@ const Contact = () => {
   const submitHandler = (event) => {
     event.preventDefault();
 
-    if (nameInput === "" || emailInput === "") {
-      console.log("One field is empty");
-      nameStyling += "border border-red-600";
+    if (nameInput === "") {
+      setNameStyling("w-1/2 border border-red-600");
     } else {
-      console.log("GOOD JOB, THE FIELDs WERE FILLED!");
+      setNameInput("");
+      setEmailInput("");
+      setNameStyling("");
+      setEmailStyling("");
+    }
+    if (emailInput === "") {
+      setEmailStyling("w-1/2 border border-red-600");
+    } else {
+      setNameInput("");
+      setEmailInput("");
+      setNameStyling("");
+      setEmailStyling("");
     }
   };
   return (
-    <div className="h-screen text-center">
-      <form className="bg-[#CCDAEB] m-5 text-center p-10">
-        <h1 className="font-bold text-[#032a5d]">Contact Me!</h1>
-        <div className="py-3 flex flex-col">
-          <label className="text-[#032a5d]">Name:</label>
+    <div className="h-screen text-center flex justify-center items-start">
+      <form className="bg-[#CCDAEB] m-5 text-center p-10 rounded-lg w-1/2">
+        <h1 className="font-bold text-[#032a5d] text-3xl">Contact Me!</h1>
+        <div className="py-3 flex flex-col justify-center items-center">
+          <label className="text-[#032a5d] m-3">Name:</label>
           <input type="text" className={nameStyling} onChange={nameInputHandler} />
         </div>
-        <div className="py-3 flex flex-col">
-          <label className="text-[#032a5d]">Email:</label>
-          <input type="text" onChange={emailInputHandler} />
+        <div className="py-3 flex flex-col justify-center items-center">
+          <label className="text-[#032a5d] m-3">Email:</label>
+          <input type="email" className={emailStyling} onChange={emailInputHandler} />
         </div>
-        <div className="py-3 flex flex-col">
-          <label className="text-[#032a5d]">Message:</label>
-          <textarea rows="5" cols="40" name="message"></textarea>
+        <div className="py-3 flex flex-col justify-center items-center">
+          <label className="text-[#032a5d] m-3">Message:</label>
+          <textarea className="w-1/2" rows="5" name="message"></textarea>
         </div>
-        <button onClick={submitHandler} className="bg-[#f97444] text-white px-3 py-2 rounded-lg">
+        <button onClick={submitHandler} className="bg-[#f97444] text-white px-6 py-1 rounded-lg text-lg mt-3">
           Submit
         </button>
       </form>

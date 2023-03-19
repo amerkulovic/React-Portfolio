@@ -12,18 +12,18 @@ const NavLinks = (props) => {
     <ul className="px-8 flex items-center text-black space-x-5">
       <motion.li initial={animateFrom} animate={animateTo} transition={{ delay: 0.05 }} onClick={() => props.isMobile && props.closeMobileMenu()}>
         <Link to="/">
-          <a href="#about" className="font-bold underline-hover-effect">
-            About
+          <a className="font-bold underline-hover-effect">
+            Home
           </a>
         </Link>
       </motion.li>
-      <motion.li initial={animateFrom} animate={animateTo} transition={{ delay: 0.1 }} onClick={() => props.isMobile && props.closeMobileMenu()}>
+      {/* <motion.li initial={animateFrom} animate={animateTo} transition={{ delay: 0.1 }} onClick={() => props.isMobile && props.closeMobileMenu()}>
         <Link to="/">
           <a href="#portfolio" className="font-bold underline-hover-effect">
             Portfolio
           </a>
         </Link>
-      </motion.li>
+      </motion.li> */}
       <motion.li initial={animateFrom} animate={animateTo} transition={{ delay: 0.15 }} onClick={() => props.isMobile && props.closeMobileMenu()}>
         <Link to="/resume">
           <a className="font-bold underline-hover-effect">Resume</a>
