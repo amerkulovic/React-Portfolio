@@ -3,9 +3,9 @@ import "./Body.css";
 
 const Contact = () => {
   const [nameInput, setNameInput] = useState("");
-  const [nameStyling, setNameStyling] = useState("w-1/2");
+  const [nameStyling, setNameStyling] = useState("w-1/2 max-sm:w-full");
   const [emailInput, setEmailInput] = useState("");
-  const [emailStyling, setEmailStyling] = useState("w-1/2");
+  const [emailStyling, setEmailStyling] = useState("w-1/2 max-sm:w-full");
 
   const nameInputHandler = (event) => {
     setNameInput(event.target.value);
@@ -19,25 +19,23 @@ const Contact = () => {
     event.preventDefault();
 
     if (nameInput === "") {
-      setNameStyling("w-1/2 border border-red-600");
+      setNameStyling("w-1/2 max-sm:w-full border border-red-600");
     } else {
-      setNameInput("");
-      setEmailInput("");
-      setNameStyling("");
-      setEmailStyling("");
+      // setNameInput("");
+      // setEmailInput("");
+      setNameStyling("w-1/2 max-sm:w-full");
     }
     if (emailInput === "") {
-      setEmailStyling("w-1/2 border border-red-600");
+      setEmailStyling("w-1/2 max-sm:w-full border border-red-600");
     } else {
-      setNameInput("");
-      setEmailInput("");
-      setNameStyling("");
-      setEmailStyling("");
+      // setNameInput("");
+      // setEmailInput("");
+      setEmailStyling("w-1/2 max-sm:w-full");
     }
   };
   return (
     <div className="h-screen text-center flex justify-center items-start">
-      <form className="bg-[#CCDAEB] m-5 text-center p-10 rounded-lg w-1/2">
+      <form className="bg-[#CCDAEB] m-5 text-center p-10 rounded-lg w-1/2 max-sm:w-full max-lg:w-3/4">
         <h1 className="font-bold text-[#032a5d] text-3xl">Contact Me!</h1>
         <div className="py-3 flex flex-col justify-center items-center">
           <label className="text-[#032a5d] m-3">Name:</label>
@@ -49,9 +47,9 @@ const Contact = () => {
         </div>
         <div className="py-3 flex flex-col justify-center items-center">
           <label className="text-[#032a5d] m-3">Message:</label>
-          <textarea className="w-1/2" rows="5" name="message"></textarea>
+          <textarea className="w-1/2 max-sm:w-full" rows="5" name="message"></textarea>
         </div>
-        <button onClick={submitHandler} className="bg-[#f97444] text-white px-6 py-1 rounded-lg text-lg mt-3">
+        <button onClick={submitHandler} className="bg-[#f97444] text-white px-6 py-1 rounded-lg text-lg mt-3 font-bold">
           Submit
         </button>
       </form>
