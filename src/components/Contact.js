@@ -8,10 +8,16 @@ const Contact = () => {
   const [emailStyling, setEmailStyling] = useState("w-1/2 max-sm:w-full rounded-lg");
 
   const nameInputHandler = (event) => {
+    if (nameInput.trim().length > 0) {
+      setNameStyling("w-1/2 max-sm:w-full rounded-lg");
+    }
     setNameInput(event.target.value);
   };
 
   const emailInputHandler = (event) => {
+    if (emailInput.trim().length > 0) {
+      setEmailStyling("w-1/2 max-sm:w-full rounded-lg");
+    }
     setEmailInput(event.target.value);
   };
 
@@ -19,14 +25,14 @@ const Contact = () => {
     event.preventDefault();
 
     if (nameInput === "") {
-      setNameStyling("w-1/2 max-sm:w-full rounded-lg border border-red-600");
+      setNameStyling("w-1/2 max-sm:w-full rounded-lg border border-red-600 bg-red-200");
     } else {
       // setNameInput("");
       // setEmailInput("");
       setNameStyling("w-1/2 max-sm:w-full rounded-lg");
     }
     if (emailInput === "") {
-      setEmailStyling("w-1/2 max-sm:w-full rounded-lg border border-red-600");
+      setEmailStyling("w-1/2 max-sm:w-full rounded-lg border border-red-600 bg-red-200");
     } else {
       // setNameInput("");
       // setEmailInput("");

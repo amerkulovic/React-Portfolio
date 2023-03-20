@@ -13,7 +13,7 @@ const About = () => {
         <li>HTML</li>
         <li>Node.js</li>
         <li>CSS</li>
-        <li>jQuery</li>
+        <li>Express</li>
       </ul>
       <p className="text-[#FEFBEC] font-semibold text-2xl mx-7 py-5">I have built multiple websites from scratch and I'm continuously learning more about the world of coding! Some personal hobbies of mine are playing basketball, weightlifting, and watching movies.</p>
     </section>
