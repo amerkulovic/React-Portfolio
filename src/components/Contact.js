@@ -3,9 +3,9 @@ import "./Body.css";
 
 const Contact = () => {
   const [nameInput, setNameInput] = useState("");
-  const [nameStyling, setNameStyling] = useState("w-1/2 max-sm:w-full");
+  const [nameStyling, setNameStyling] = useState("w-1/2 max-sm:w-full rounded-lg");
   const [emailInput, setEmailInput] = useState("");
-  const [emailStyling, setEmailStyling] = useState("w-1/2 max-sm:w-full");
+  const [emailStyling, setEmailStyling] = useState("w-1/2 max-sm:w-full rounded-lg");
 
   const nameInputHandler = (event) => {
     setNameInput(event.target.value);
@@ -19,18 +19,18 @@ const Contact = () => {
     event.preventDefault();
 
     if (nameInput === "") {
-      setNameStyling("w-1/2 max-sm:w-full border border-red-600");
+      setNameStyling("w-1/2 max-sm:w-full rounded-lg border border-red-600");
     } else {
       // setNameInput("");
       // setEmailInput("");
-      setNameStyling("w-1/2 max-sm:w-full");
+      setNameStyling("w-1/2 max-sm:w-full rounded-lg");
     }
     if (emailInput === "") {
-      setEmailStyling("w-1/2 max-sm:w-full border border-red-600");
+      setEmailStyling("w-1/2 max-sm:w-full rounded-lg border border-red-600");
     } else {
       // setNameInput("");
       // setEmailInput("");
-      setEmailStyling("w-1/2 max-sm:w-full");
+      setEmailStyling("w-1/2 max-sm:w-full rounded-lg");
     }
   };
   return (
@@ -47,7 +47,7 @@ const Contact = () => {
         </div>
         <div className="py-3 flex flex-col justify-center items-center">
           <label className="text-[#032a5d] m-3">Message:</label>
-          <textarea className="w-1/2 max-sm:w-full" rows="5" name="message"></textarea>
+          <textarea className="w-1/2 max-sm:w-full rounded-lg" rows="5" name="message"></textarea>
         </div>
         <button onClick={submitHandler} className="bg-[#f97444] text-white px-6 py-1 rounded-lg text-lg mt-3 font-bold">
           Submit
