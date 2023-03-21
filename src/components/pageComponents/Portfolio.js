@@ -1,12 +1,12 @@
 import React from "react";
-import Project from "./Project";
-import myMovieSpace from "../images/MyMovieSpace.png";
-import indianaJones from "../images/IndianaJones.png";
-import futureFinder from "../images/FutureFinder.png";
-import socialNetwork from "../images/SocialNetwork.png";
-import noteTaker from "../images/NoteTaker.png";
-import weatherDashboard from "../images/WeatherDashboard.png";
-import githubLogo from "../images/github-white.png";
+import Project from "../homeComponents/Project";
+import myMovieSpace from "../../images/MyMovieSpace.png";
+import indianaJones from "../../images/IndianaJones.png";
+import futureFinder from "../../images/FutureFinder.png";
+import socialNetwork from "../../images/SocialNetwork.png";
+import noteTaker from "../../images/NoteTaker.png";
+import weatherDashboard from "../../images/WeatherDashboard.png";
+import githubLogo from "../../images/github-white.png";
 
 const Portfolio = () => {
   return (

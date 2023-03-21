@@ -1,11 +1,11 @@
-import Header from "./components/Header";
-import Body from "./components/Body";
-import Footer from "./components/Footer";
-import Contact from "./components/Contact";
-import Resume from "./components/Resume";
+import Header from "./components/homeComponents/Header";
+import Body from "./components/homeComponents/Body";
+import Footer from "./components/homeComponents/Footer";
+import Contact from "./components/pageComponents/Contact";
+import Resume from "./components/pageComponents/Resume";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
-import About from "./components/About";
+import About from "./components/homeComponents/About.js";
 
 function App() {
   return (

@@ -1,4 +1,4 @@
-import resumeSvg from "../images/resume.svg";
+import resumeSvg from "../../images/resume.svg";
 import "./Resume.css";
 
 const Resume = () => {

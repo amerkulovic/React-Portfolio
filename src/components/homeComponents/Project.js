@@ -1,6 +1,6 @@
 import React from "react";
-import githubLogo from "../images/github-white.png";
-import webLogo from "../images/web-white.png";
+import githubLogo from "../../images/github-white.png";
+import webLogo from "../../images/web-white.png";
 
 const Project = (props) => {
   return (

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import githubLogo from "../images/github-black.svg";
-import linkedInLogo from "../images/linkedIn.png";
+import githubLogo from "../../images/github-black.svg";
+import linkedInLogo from "../../images/linkedIn.png";
 
 const Footer = () => {
   let [currentColor, setCurrentColor] = useState("black");

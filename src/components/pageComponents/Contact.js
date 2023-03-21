@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./Body.css";
+import "../homeComponents/Body.css";
 
 const Contact = () => {
   const [nameInput, setNameInput] = useState("");
@@ -40,19 +40,19 @@ const Contact = () => {
     }
   };
   return (
-    <div className="h-screen text-center flex justify-center items-start">
+    <div className="text-center flex justify-center items-start">
       <form className="bg-[#CCDAEB] m-5 text-center p-10 rounded-lg w-1/2 max-sm:w-full max-lg:w-3/4">
         <h1 className="font-bold text-[#032a5d] text-3xl">Contact Me!</h1>
         <div className="py-3 flex flex-col justify-center items-center">
-          <label className="text-[#032a5d] m-3">Name:</label>
+          <label className="text-[#032a5d] m-3 font-bold">Name:</label>
           <input type="text" className={nameStyling} onChange={nameInputHandler} />
         </div>
         <div className="py-3 flex flex-col justify-center items-center">
-          <label className="text-[#032a5d] m-3">Email:</label>
+          <label className="text-[#032a5d] m-3 font-bold">Email:</label>
           <input type="email" className={emailStyling} onChange={emailInputHandler} />
         </div>
         <div className="py-3 flex flex-col justify-center items-center">
-          <label className="text-[#032a5d] m-3">Message:</label>
+          <label className="text-[#032a5d] m-3 font-bold">Message:</label>
           <textarea className="w-1/2 max-sm:w-full rounded-lg" rows="5" name="message"></textarea>
         </div>
         <button onClick={submitHandler} className="bg-[#f97444] text-white px-6 py-1 rounded-lg text-lg mt-3 font-bold">

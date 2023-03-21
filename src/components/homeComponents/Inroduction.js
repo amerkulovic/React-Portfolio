@@ -1,5 +1,5 @@
 import React from "react";
-import coding from "../images/coding.svg";
+import coding from "../../images/coding.svg";
 
 const Introduction = () => {
   return (
