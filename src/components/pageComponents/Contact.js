@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "../homeComponents/Body.css";
+import "../../pages/Body.css";
 
 const Contact = () => {
   const [nameInput, setNameInput] = useState("");

@@ -1,9 +1,9 @@
 import React from "react";
 
 import "./Body.css";
-import Introduction from "./Inroduction";
-import About from "./About";
-import Portfolio from "../pageComponents/Portfolio";
+import Introduction from "../components/homeComponents/Inroduction";
+import About from "../components/homeComponents/About";
+import Portfolio from "../components/pageComponents/Portfolio";
 
 const Body = () => {
   return (

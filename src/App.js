@@ -1,5 +1,5 @@
 import Header from "./components/homeComponents/Header";
-import Body from "./components/homeComponents/Body";
+import Body from "./pages/Body";
 import Footer from "./components/homeComponents/Footer";
 import Contact from "./components/pageComponents/Contact";
 import Resume from "./components/pageComponents/Resume";
