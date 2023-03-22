@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.e8a4f58b.css",
+    "main.js": "/react-gh-pages/static/js/main.c6f3bd0c.js",
+    "static/js/787.146a3669.chunk.js": "/react-gh-pages/static/js/787.146a3669.chunk.js",
+    "static/media/MyMovieSpace.png": "/react-gh-pages/static/media/MyMovieSpace.6667915b000c32c38af9.png",
+    "static/media/IndianaJones.png": "/react-gh-pages/static/media/IndianaJones.4306aeb12d3e79f353c8.png",
+    "static/media/WeatherDashboard.png": "/react-gh-pages/static/media/WeatherDashboard.f2271ff5fdf1a05011f7.png",
+    "static/media/SocialNetwork.png": "/react-gh-pages/static/media/SocialNetwork.3b6cebc06ec1e5918a77.png",
+    "static/media/FutureFinder.png": "/react-gh-pages/static/media/FutureFinder.cf630dde11de4529025c.png",
+    "static/media/NoteTaker.png": "/react-gh-pages/static/media/NoteTaker.e81d336181d14af9c5e7.png",
+    "static/media/web-white.png": "/react-gh-pages/static/media/web-white.261b31141b4c4d64e747.png",
+    "static/media/resume.svg": "/react-gh-pages/static/media/resume.2fbba4ae2242237e0732815abd68d6e8.svg",
+    "static/media/coding.svg": "/react-gh-pages/static/media/coding.651b913b8992c1d53f9ea377f30920ab.svg",
+    "static/media/github-black.svg": "/react-gh-pages/static/media/github-black.6fa18895f6e6c7772cab7049f7e05f59.svg",
+    "index.html": "/react-gh-pages/index.html",
+    "main.e8a4f58b.css.map": "/react-gh-pages/static/css/main.e8a4f58b.css.map",
+    "main.c6f3bd0c.js.map": "/react-gh-pages/static/js/main.c6f3bd0c.js.map",
+    "787.146a3669.chunk.js.map": "/react-gh-pages/static/js/787.146a3669.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e8a4f58b.css",
+    "static/js/main.c6f3bd0c.js"
+  ]
+}
