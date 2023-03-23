@@ -4,7 +4,7 @@ import webLogo from "../../images/web-white.png";
 
 const Project = (props) => {
   return (
-    <button>
+    <div>
       <div className="container inline-block">
         <img src={props.imgLink} className="work-picture"></img>
         <h1 className="picture-text">{props.projectTitle}</h1>
@@ -15,7 +15,7 @@ const Project = (props) => {
           <img src={webLogo} width="50" height="50"></img>
         </a>
       </div>
-    </button>
+    </div>
   );
 };
 

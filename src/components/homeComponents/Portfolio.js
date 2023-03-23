@@ -1,5 +1,5 @@
 import React from "react";
-import Project from "../homeComponents/Project";
+import Project from "./Project";
 import myMovieSpace from "../../images/MyMovieSpace.png";
 import indianaJones from "../../images/IndianaJones.png";
 import futureFinder from "../../images/FutureFinder.png";

@@ -30,7 +30,7 @@ const NavLinks = (props) => {
     <ul className="px-8 flex items-center text-black space-x-5">
       <motion.li initial={animateFrom} animate={animateTo} transition={{ delay: 0.05 }} onClick={() => props.isMobile && props.closeMobileMenu()}>
         <Link to="/">
-          <a className="font-bold underline-hover-effect">Home</a>
+          <a className="font-bold underline-hover-effect ml-6">Home</a>
         </Link>
       </motion.li>
       {location.pathname === "/" && aboutNav}
