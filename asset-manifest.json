@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.e8a4f58b.css",
-    "main.js": "/react-gh-pages/static/js/main.c6f3bd0c.js",
+    "main.css": "/react-gh-pages/static/css/main.031c3520.css",
+    "main.js": "/react-gh-pages/static/js/main.5202cae7.js",
     "static/js/787.146a3669.chunk.js": "/react-gh-pages/static/js/787.146a3669.chunk.js",
     "static/media/MyMovieSpace.png": "/react-gh-pages/static/media/MyMovieSpace.6667915b000c32c38af9.png",
     "static/media/IndianaJones.png": "/react-gh-pages/static/media/IndianaJones.4306aeb12d3e79f353c8.png",
@@ -14,12 +14,12 @@
     "static/media/coding.svg": "/react-gh-pages/static/media/coding.651b913b8992c1d53f9ea377f30920ab.svg",
     "static/media/github-black.svg": "/react-gh-pages/static/media/github-black.6fa18895f6e6c7772cab7049f7e05f59.svg",
     "index.html": "/react-gh-pages/index.html",
-    "main.e8a4f58b.css.map": "/react-gh-pages/static/css/main.e8a4f58b.css.map",
-    "main.c6f3bd0c.js.map": "/react-gh-pages/static/js/main.c6f3bd0c.js.map",
+    "main.031c3520.css.map": "/react-gh-pages/static/css/main.031c3520.css.map",
+    "main.5202cae7.js.map": "/react-gh-pages/static/js/main.5202cae7.js.map",
     "787.146a3669.chunk.js.map": "/react-gh-pages/static/js/787.146a3669.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e8a4f58b.css",
-    "static/js/main.c6f3bd0c.js"
+    "static/css/main.031c3520.css",
+    "static/js/main.5202cae7.js"
   ]
 }
