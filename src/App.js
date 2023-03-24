@@ -15,7 +15,7 @@ function App() {
         <Routes>
           <Route path="/contact" element={<Contact />} />
           <Route path="/resume" element={<Resume />} />
-          <Route path="/" element={<Body />} />
+          <Route path="/React-Portfolio" element={<Body />} />
         </Routes>
         {/* <Body /> */}
         <Footer />
