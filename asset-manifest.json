@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.031c3520.css",
-    "main.js": "/static/js/main.f37c29c2.js",
-    "static/js/787.146a3669.chunk.js": "/static/js/787.146a3669.chunk.js",
-    "static/media/MyMovieSpace.png": "/static/media/MyMovieSpace.6667915b000c32c38af9.png",
-    "static/media/IndianaJones.png": "/static/media/IndianaJones.4306aeb12d3e79f353c8.png",
-    "static/media/WeatherDashboard.png": "/static/media/WeatherDashboard.f2271ff5fdf1a05011f7.png",
-    "static/media/SocialNetwork.png": "/static/media/SocialNetwork.3b6cebc06ec1e5918a77.png",
-    "static/media/FutureFinder.png": "/static/media/FutureFinder.cf630dde11de4529025c.png",
-    "static/media/NoteTaker.png": "/static/media/NoteTaker.e81d336181d14af9c5e7.png",
-    "static/media/web-white.png": "/static/media/web-white.261b31141b4c4d64e747.png",
-    "static/media/resume.svg": "/static/media/resume.2fbba4ae2242237e0732815abd68d6e8.svg",
-    "static/media/coding.svg": "/static/media/coding.651b913b8992c1d53f9ea377f30920ab.svg",
-    "static/media/github-black.svg": "/static/media/github-black.6fa18895f6e6c7772cab7049f7e05f59.svg",
-    "index.html": "/index.html",
-    "main.031c3520.css.map": "/static/css/main.031c3520.css.map",
-    "main.f37c29c2.js.map": "/static/js/main.f37c29c2.js.map",
-    "787.146a3669.chunk.js.map": "/static/js/787.146a3669.chunk.js.map"
+    "main.css": "/React-Portfolio/static/css/main.031c3520.css",
+    "main.js": "/React-Portfolio/static/js/main.263cffc5.js",
+    "static/js/787.146a3669.chunk.js": "/React-Portfolio/static/js/787.146a3669.chunk.js",
+    "static/media/MyMovieSpace.png": "/React-Portfolio/static/media/MyMovieSpace.6667915b000c32c38af9.png",
+    "static/media/IndianaJones.png": "/React-Portfolio/static/media/IndianaJones.4306aeb12d3e79f353c8.png",
+    "static/media/WeatherDashboard.png": "/React-Portfolio/static/media/WeatherDashboard.f2271ff5fdf1a05011f7.png",
+    "static/media/SocialNetwork.png": "/React-Portfolio/static/media/SocialNetwork.3b6cebc06ec1e5918a77.png",
+    "static/media/FutureFinder.png": "/React-Portfolio/static/media/FutureFinder.cf630dde11de4529025c.png",
+    "static/media/NoteTaker.png": "/React-Portfolio/static/media/NoteTaker.e81d336181d14af9c5e7.png",
+    "static/media/web-white.png": "/React-Portfolio/static/media/web-white.261b31141b4c4d64e747.png",
+    "static/media/resume.svg": "/React-Portfolio/static/media/resume.2fbba4ae2242237e0732815abd68d6e8.svg",
+    "static/media/coding.svg": "/React-Portfolio/static/media/coding.651b913b8992c1d53f9ea377f30920ab.svg",
+    "static/media/github-black.svg": "/React-Portfolio/static/media/github-black.6fa18895f6e6c7772cab7049f7e05f59.svg",
+    "index.html": "/React-Portfolio/index.html",
+    "main.031c3520.css.map": "/React-Portfolio/static/css/main.031c3520.css.map",
+    "main.263cffc5.js.map": "/React-Portfolio/static/js/main.263cffc5.js.map",
+    "787.146a3669.chunk.js.map": "/React-Portfolio/static/js/787.146a3669.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.031c3520.css",
-    "static/js/main.f37c29c2.js"
+    "static/js/main.263cffc5.js"
   ]
 }
