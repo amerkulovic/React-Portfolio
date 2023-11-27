@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.2f7447b4.css",
-    "main.js": "/React-Portfolio/static/js/main.846138a5.js",
+    "main.js": "/React-Portfolio/static/js/main.1cd4d788.js",
     "static/js/787.146a3669.chunk.js": "/React-Portfolio/static/js/787.146a3669.chunk.js",
     "static/media/OceanBuddies.png": "/React-Portfolio/static/media/OceanBuddies.0312907299d1ff1c76e9.png",
     "static/media/MyMovieSpace.png": "/React-Portfolio/static/media/MyMovieSpace.6667915b000c32c38af9.png",
     "static/media/IndianaJones.png": "/React-Portfolio/static/media/IndianaJones.4306aeb12d3e79f353c8.png",
+    "static/media/NovelNest.png": "/React-Portfolio/static/media/NovelNest.f6a66fb26ff98e95bfc0.png",
     "static/media/WeatherDashboard.png": "/React-Portfolio/static/media/WeatherDashboard.f2271ff5fdf1a05011f7.png",
     "static/media/SocialNetwork.png": "/React-Portfolio/static/media/SocialNetwork.3b6cebc06ec1e5918a77.png",
     "static/media/FutureFinder.png": "/React-Portfolio/static/media/FutureFinder.cf630dde11de4529025c.png",
@@ -17,11 +18,11 @@
     "static/media/github-black.svg": "/React-Portfolio/static/media/github-black.6fa18895f6e6c7772cab7049f7e05f59.svg",
     "index.html": "/React-Portfolio/index.html",
     "main.2f7447b4.css.map": "/React-Portfolio/static/css/main.2f7447b4.css.map",
-    "main.846138a5.js.map": "/React-Portfolio/static/js/main.846138a5.js.map",
+    "main.1cd4d788.js.map": "/React-Portfolio/static/js/main.1cd4d788.js.map",
     "787.146a3669.chunk.js.map": "/React-Portfolio/static/js/787.146a3669.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2f7447b4.css",
-    "static/js/main.846138a5.js"
+    "static/js/main.1cd4d788.js"
   ]
 }
