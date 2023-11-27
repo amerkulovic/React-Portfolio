@@ -9,13 +9,13 @@ import About from "./components/homeComponents/About.js";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/React-Portfolio">
       <div>
         <Header />
         <Routes>
           <Route path="/contact" element={<Contact />} />
           <Route path="/resume" element={<Resume />} />
-          <Route path="/React-Portfolio" element={<Body />} />
+          <Route path="/" element={<Body />} />
         </Routes>
         {/* <Body /> */}
         <Footer />

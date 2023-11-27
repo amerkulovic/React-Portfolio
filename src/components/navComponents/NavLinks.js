@@ -29,12 +29,12 @@ const NavLinks = (props) => {
   return (
     <ul className="px-8 flex items-center text-black space-x-5">
       <motion.li initial={animateFrom} animate={animateTo} transition={{ delay: 0.05 }} onClick={() => props.isMobile && props.closeMobileMenu()}>
-        <Link to="/React-Portfolio">
+        <Link to="/">
           <a className="font-bold underline-hover-effect ml-6">Home</a>
         </Link>
       </motion.li>
-      {location.pathname === "/React-Portfolio" && aboutNav}
-      {location.pathname === "/React-Portfolio" && portfolioNav}
+      {location.pathname === "/" && aboutNav}
+      {location.pathname === "/" && portfolioNav}
       <motion.li initial={animateFrom} animate={animateTo} transition={{ delay: 0.15 }} onClick={() => props.isMobile && props.closeMobileMenu()}>
         <Link to="/resume">
           <a className="font-bold underline-hover-effect">Resume</a>
