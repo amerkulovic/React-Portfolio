@@ -6,7 +6,7 @@ const Introduction = () => {
     <div className="relative">
       <p className="font-bold text-6xl pt-28 px-10">
         Hi, my name is <span className="text-[#F97444] type-writer">Amer Kulovic</span>
-        <br></br>Software Engineer
+        <br></br>Business & Tech
       </p>
       <p className="font-light px-10 text-lg pt-2">Check out my work!</p>
       <img className="absolute right-0 h-96 max-md:hidden" src={coding}></img>

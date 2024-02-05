@@ -1,5 +1,5 @@
 import resumeSvg from "../../images/resume.svg";
-import resume from "../../images/Resume v3.docx";
+import resume from "../../images/Resume-Tech-PDF.pdf";
 
 import "./Resume.css";
 
