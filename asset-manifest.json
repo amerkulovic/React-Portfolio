@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.02564915.css",
-    "main.js": "/React-Portfolio/static/js/main.9c63dd59.js",
+    "main.js": "/React-Portfolio/static/js/main.fba4491a.js",
     "static/js/787.78c9f1d0.chunk.js": "/React-Portfolio/static/js/787.78c9f1d0.chunk.js",
     "static/media/OceanBuddies.png": "/React-Portfolio/static/media/OceanBuddies.0312907299d1ff1c76e9.png",
     "static/media/MyMovieSpace.png": "/React-Portfolio/static/media/MyMovieSpace.6667915b000c32c38af9.png",
@@ -11,18 +11,18 @@
     "static/media/SocialNetwork.png": "/React-Portfolio/static/media/SocialNetwork.3b6cebc06ec1e5918a77.png",
     "static/media/FutureFinder.png": "/React-Portfolio/static/media/FutureFinder.cf630dde11de4529025c.png",
     "static/media/NoteTaker.png": "/React-Portfolio/static/media/NoteTaker.e81d336181d14af9c5e7.png",
+    "static/media/Resume-Tech-PDF.pdf": "/React-Portfolio/static/media/Resume-Tech-PDF.f92bee6cbbcf3a729349.pdf",
     "static/media/web-white.png": "/React-Portfolio/static/media/web-white.261b31141b4c4d64e747.png",
-    "static/media/Resume v4.docx": "/React-Portfolio/static/media/Resume v4.b39ff0bb08d326db7a99.docx",
     "static/media/resume.svg": "/React-Portfolio/static/media/resume.2fbba4ae2242237e0732815abd68d6e8.svg",
     "static/media/coding.svg": "/React-Portfolio/static/media/coding.651b913b8992c1d53f9ea377f30920ab.svg",
     "static/media/github-black.svg": "/React-Portfolio/static/media/github-black.6fa18895f6e6c7772cab7049f7e05f59.svg",
     "index.html": "/React-Portfolio/index.html",
     "main.02564915.css.map": "/React-Portfolio/static/css/main.02564915.css.map",
-    "main.9c63dd59.js.map": "/React-Portfolio/static/js/main.9c63dd59.js.map",
+    "main.fba4491a.js.map": "/React-Portfolio/static/js/main.fba4491a.js.map",
     "787.78c9f1d0.chunk.js.map": "/React-Portfolio/static/js/787.78c9f1d0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.02564915.css",
-    "static/js/main.9c63dd59.js"
+    "static/js/main.fba4491a.js"
   ]
 }
