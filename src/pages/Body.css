@@ -33,6 +33,7 @@ svg {
   height: 315px;
   border: 3px solid #fefbec;
   margin: 10px;
+  transition: all ease-in 0.2s;
 }
 
 .work-picture:hover {
@@ -161,5 +162,7 @@ svg {
 @media (max-width: 930px) {
   .work-picture {
     margin: 10px 0;
+    height: 265px;
+    width: 395px;
   }
 }
