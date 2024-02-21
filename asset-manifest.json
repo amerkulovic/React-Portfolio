@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.119acd00.css",
-    "main.js": "/React-Portfolio/static/js/main.fba4491a.js",
+    "main.css": "/React-Portfolio/static/css/main.e620d57f.css",
+    "main.js": "/React-Portfolio/static/js/main.308eeb99.js",
     "static/js/787.78c9f1d0.chunk.js": "/React-Portfolio/static/js/787.78c9f1d0.chunk.js",
     "static/media/OceanBuddies.png": "/React-Portfolio/static/media/OceanBuddies.0312907299d1ff1c76e9.png",
     "static/media/MyMovieSpace.png": "/React-Portfolio/static/media/MyMovieSpace.6667915b000c32c38af9.png",
@@ -17,12 +17,12 @@
     "static/media/coding.svg": "/React-Portfolio/static/media/coding.651b913b8992c1d53f9ea377f30920ab.svg",
     "static/media/github-black.svg": "/React-Portfolio/static/media/github-black.6fa18895f6e6c7772cab7049f7e05f59.svg",
     "index.html": "/React-Portfolio/index.html",
-    "main.119acd00.css.map": "/React-Portfolio/static/css/main.119acd00.css.map",
-    "main.fba4491a.js.map": "/React-Portfolio/static/js/main.fba4491a.js.map",
+    "main.e620d57f.css.map": "/React-Portfolio/static/css/main.e620d57f.css.map",
+    "main.308eeb99.js.map": "/React-Portfolio/static/js/main.308eeb99.js.map",
     "787.78c9f1d0.chunk.js.map": "/React-Portfolio/static/js/787.78c9f1d0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.119acd00.css",
-    "static/js/main.fba4491a.js"
+    "static/css/main.e620d57f.css",
+    "static/js/main.308eeb99.js"
   ]
 }
