@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.e620d57f.css",
-    "main.js": "/React-Portfolio/static/js/main.37fbb58e.js",
+    "main.css": "/React-Portfolio/static/css/main.f5204b1e.css",
+    "main.js": "/React-Portfolio/static/js/main.df3a6cd6.js",
     "static/js/787.78c9f1d0.chunk.js": "/React-Portfolio/static/js/787.78c9f1d0.chunk.js",
     "static/media/OceanBuddies.png": "/React-Portfolio/static/media/OceanBuddies.0312907299d1ff1c76e9.png",
-    "static/media/MyMovieSpace.png": "/React-Portfolio/static/media/MyMovieSpace.6667915b000c32c38af9.png",
+    "static/media/mymoviespace2.0.png": "/React-Portfolio/static/media/mymoviespace2.0.e92cd13f7dc6c5f9264e.png",
     "static/media/IndianaJones.png": "/React-Portfolio/static/media/IndianaJones.4306aeb12d3e79f353c8.png",
     "static/media/NovelNest.png": "/React-Portfolio/static/media/NovelNest.f6a66fb26ff98e95bfc0.png",
     "static/media/WeatherDashboard.png": "/React-Portfolio/static/media/WeatherDashboard.f2271ff5fdf1a05011f7.png",
@@ -17,12 +17,12 @@
     "static/media/coding.svg": "/React-Portfolio/static/media/coding.651b913b8992c1d53f9ea377f30920ab.svg",
     "static/media/github-black.svg": "/React-Portfolio/static/media/github-black.6fa18895f6e6c7772cab7049f7e05f59.svg",
     "index.html": "/React-Portfolio/index.html",
-    "main.e620d57f.css.map": "/React-Portfolio/static/css/main.e620d57f.css.map",
-    "main.37fbb58e.js.map": "/React-Portfolio/static/js/main.37fbb58e.js.map",
+    "main.f5204b1e.css.map": "/React-Portfolio/static/css/main.f5204b1e.css.map",
+    "main.df3a6cd6.js.map": "/React-Portfolio/static/js/main.df3a6cd6.js.map",
     "787.78c9f1d0.chunk.js.map": "/React-Portfolio/static/js/787.78c9f1d0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e620d57f.css",
-    "static/js/main.37fbb58e.js"
+    "static/css/main.f5204b1e.css",
+    "static/js/main.df3a6cd6.js"
   ]
 }
